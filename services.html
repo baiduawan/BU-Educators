@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> BU- Educators !</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        body {
+            background-image: url('bg.jpg');
+            font-family: 'Domine', serif;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0%;
+            cursor: pointer;
+            background-color: rgba(56, 55, 55, 0.868);
+            ;
+        }
+
+        .list-items {
+            width: 70%;
+            /* background-color: antiquewhite; */
+            list-style: none;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .list-items li {
+            padding: 30px 40px;
+        }
+
+        .list-items li a {
+            text-decoration: none;
+            color: white;
+
+
+        }
+
+        .list-items li a:hover {
+            color: rgb(136, 142, 126);
+
+
+
+        }
+
+        .right-nav {
+            /* background-color: rgb(232, 232, 174); */
+            width: 30%;
+            text-align: right;
+            padding: 0px 40px;
+        }
+
+        #search {
+            border-radius: 7px;
+        }
+
+        .logo {
+            width: 80px;
+            border: 3px solid wheat;
+            border-radius: 50px;
+            margin: 10px 15px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .btn-sm {
+            padding: 2px 6px;
+            margin: 3px 13px;
+            background: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+
+
+        }
+
+        .btn-sm:hover {
+            background-color: rgb(136, 142, 126);
+        }
+
+
+
+        /*Services*/
+        .service {
+            margin: -120px 30px;
+            padding: 3px 4px;
+            margin-bottom: ;
+        }
+
+        #services {
+            margin: 0px 34px;
+            display: flex;
+
+
+        }
+
+        #services .box {
+            border: 2px solid black;
+            margin: auto;
+            display: block;
+            width: 291px;
+            border-radius: 4px;
+            background-color: rgb(253, 248, 241);
+            height: 400px;
+        }
+
+        #services .box img {
+            height: 160px;
+            width: 291px;
+
+        }
+
+        .center {
+            text-align: center;
+            margin: auto;
+            display: block;
+            width: 270px;
+
+        }
+
+        #h1 {
+            text-align: center;
+            margin-top: 200px;
+            font-size: 2.4rem;
+            margin-bottom: 80px;
+            color: white;
+        }
+
+        .h1 {
+            font-size: 2rem;
+            padding: 15px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        /* footer */
+        .text-center {
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            padding: 10px 2px;
+            background-color: rgba(197, 197, 184, 0.463);
+            margin-top: 180px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar: -->
+    <nav class="navbar">
+        <ul class="list-items">
+            <img src="logo.jpg" alt="logo" class="logo">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="./about.html">About</a></li>
+        </ul>
+        <div class="right-nav">
+            <input type="text" name="search" id="search">
+            <button class="btn-sm">
+                Search
+            </button>
+        </div>
+    </nav>
+
+    <!--Services-->
+
+
+    <section class="service">
+        <h1 id="h1">Services:</h1>
+        <div id="services">
+            <div class="box">
+                <img src="s1.jpg" alt="">
+                <h2 class="h1">Web Developement</h2>
+                <p class="center"> Web developers often work for clients who are trying to get their product or service
+                    onto the web.
+                    <br> The work is typically very project focused and involves collaborating with a team.
+                </p>
+            </div>
+            <div class="box">
+                <img src="s2.jpg" alt="">
+                <h2 class="h1">Coding</h2>
+                <p class="center">Coding is the process of transforming ideas, solutions, and instructions into the
+                    language that the computer can understand – that is, binary-machine code. Coding is how humans are
+                    able to talk with computers.
+                    <br>
+                    Coding can be a good career for many professionals.
+                </p>
+            </div>
+            <div class="box">
+                <img src="s3.jpg" alt="">
+                <h2 class="h1">Web Designing</h2>
+                <p class="center">Web designing is the creation of websites and pages to reflect a company's brand and
+                    information and ensure a user-friendly experience.
+                    <br>
+                    Appearance and design are incorporated as vital
+                    elements whether you're designing a website, mobile app or maintaining content on a web page
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+
+    <section class="service">
+        <h1 id="h1"></h1>
+        <div id="services">
+            <div class="box">
+                <img src="s4.jpg" alt="">
+                <h2 class="h1">Software Engineering</h2>
+                <p class="center"> Software engineering is a detailed study of engineering to the design, development
+                    and maintenance of software. Software engineering was introduced to address the issues of
+                    low-quality software projects.
+                    <br> Problems arise when a software generally exceeds timelines, budgets.
+                </p>
+            </div>
+            <div class="box">
+                <img src="s5.jpg" alt="">
+                <h2 class="h1">Computer Graphics</h2>
+                <p class="center">Computer graphics is a sub-field of computer science which studies methods for
+                    digitally synthesizing and manipulating visual content.
+                    <br>
+                    Although the term often refers to the study
+                    of three-dimensional computer graphics.
+                </p>
+            </div>
+            <div class="box">
+                <img src="s6.jpg" alt="">
+                <h2 class="h1">Artificial Intelligence</h2>
+                <p class="center">Artificial intelligence is the simulation of human intelligence processes by machines,
+                    especially computer systems. 
+                    <br>
+                    Specific applications of AI include expert systems, natural language
+                    processing, speech recognition and machine vision.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <p class="text-center">
+            Copyright &copy; 2022; www.BU-Educators! - All rights reserved!
+            <br><br>
+            Email Me : awan64448@gmail.com.
+            <br><br>
+            Whatsapp/Ph: 03168893571.
+        </p>
+    </footer>
+
+
+</body>
+
+</html>

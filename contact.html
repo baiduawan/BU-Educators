@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> BU- Educators !</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        body {
+            background-image: url('contact.jpg');
+           font-family: 'Domine', serif;
+        }
+
+        .navbar {
+            display: flex;
+            /* align-items: center;
+    justify-content: center; */
+            position: sticky;
+            top: 0%;
+            cursor: pointer;
+            background-color: rgba(56, 55, 55, 0.868);
+            ;
+        }
+
+        .list-items {
+            width: 70%;
+            /* background-color: antiquewhite; */
+            list-style: none;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .list-items li {
+            padding: 30px 40px;
+        }
+
+        .list-items li a {
+            text-decoration: none;
+            color: white;
+
+
+        }
+
+        .list-items li a:hover {
+            color: rgb(136, 142, 126);
+
+
+
+        }
+
+        /* .right-nav { */
+        /* background-color: rgb(232, 232, 174); */
+        width: 30%;
+        text-align: right;
+        padding: 0px 40px;
+        }
+
+        #search {
+            border-radius: 7px;
+        }
+
+        .logo {
+            width: 80px;
+            border: 3px solid wheat;
+            border-radius: 50px;
+            margin: 10px 15px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .btn-sm {
+            padding: 2px 6px;
+            margin: 3px 13px;
+            background: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+
+
+        }
+
+        .btn-sm:hover {
+            background-color: rgb(136, 142, 126);
+        }
+
+
+        /*Contact*/
+        #contact {
+            position: relative;
+        }
+
+        #contactbox {
+            /* border: 2px solid black; */
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 500px;
+            margin: auto;
+            text-align: center;
+            justify-content: center;
+            padding: 13px 30px;
+            border-radius: 25px;
+            margin-top: 20px;
+        }
+
+        input {
+            padding: 8px 5px;
+            margin: 10px 50px;
+            width: 500px;
+            border-radius: 7px;
+
+        }
+
+        h1 {
+            margin-bottom: 80px;
+
+        }
+
+        .btn {
+
+            padding: 3px 20px;
+            border: 2px solid black;
+            margin: 20px;
+            border-radius: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        /* footer */
+        .text-center {
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            padding: 15px 2px;
+            background-color: rgba(197, 197, 184, 0.463);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar: -->
+    <nav class="navbar">
+        <ul class="list-items">
+            <img src="logo.jpg" alt="logo" class="logo">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="./about.html">About</a></li>
+        </ul>
+        <!-- <div class="right-nav">
+            <input type="text" name="search" id="search">
+            <button class="btn-sm">
+                Search
+            </button>
+        </div> -->
+    </nav>
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <div id="contactbox">
+            <h1>Contact Us</h1>
+            <form action="">
+                <label for="name">Name: </label>
+                <input type="text" name="" id="name" placeholder="Enter Your Name!">
+                <br>
+                <labcel for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email!">
+                    <br>
+                    <label for="number">Ph No: </label>
+                    <input type="number" name="number" id="number" placeholder="Enter Your Number!">
+                    <br>
+                    <label for="address">Addr:</label>
+                    <input type="text" name="" id="address" placeholder="Enter Your Address!">
+                    <br>
+                    <br>
+                    <button class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p class="text-center">
+            Copyright &copy; 2022; www.BU-Educators! - All rights reserved!
+        </p>
+        <p class="text-center">
+            Email Me : awan64448@gmail.com.
+            <br><br>
+            Whatsapp/Ph: 03168893571.
+        </p>
+    </footer>
+
+
+</body>
+
+</html>
